@@ -15,8 +15,6 @@ class GotoRubyGemCommand(sublime_plugin.WindowCommand):
 class GemInputHandler(sublime_plugin.ListInputHandler):
 
   def list_items(self):
-    # TODO: This version only supports Linux and RVM as Ruby manager.
-
     # Get the current Ruby version
     ruby_version = os.popen("rvm current").read().split("\n")[0]
 
@@ -30,10 +28,9 @@ class GemInputHandler(sublime_plugin.ListInputHandler):
 
     for gems_directory in rvm_gems_directories:
 
-      # List all files and directories in the gems directory
+      # List all Gems
       gems = os.listdir(gems_directory)
 
-      # Iterate over the gems and their absolute paths
       for gem in gems:
           gem_path = os.path.join(gems_directory, gem)
           gems_list.append((gem, gem_path))
