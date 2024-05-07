@@ -2,10 +2,12 @@
 
 This plugin is designed for Ruby projects and allows you to quickly access the code of any installed gem. It opens the gem's source code in a new Sublime Text window for easy inspection.
 
+![working](https://github.com/ZainIftikhar7vals/GotoRubyGem/assets/88649907/f23eeb13-061b-4e27-a7f5-a5d35d7e5933)
+
+
 ## Installation
 
 ### Using Package Control
-
 1. Open Sublime Text and press "ctrl + shift + p".
 2. Type "Package Control: Add Repository" and enter the URL of this repo: `https://github.com/ZainIftikhar7vals/GotoRubyGem`.
 3. Press enter to add the repository.
