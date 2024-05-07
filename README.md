@@ -23,4 +23,7 @@ Once installed, you'll see a selection window where you can choose "Goto Ruby Ge
 3. It will display a list of all installed gems.
 4. Select a gem from the list, and the plugin will open its source code in a new window.
 
+## limitations
+* Experimental support for Sublime Text for Linux/Mac with RVM.
+
 Enjoy exploring gem code easily with Goto Ruby Gem!
