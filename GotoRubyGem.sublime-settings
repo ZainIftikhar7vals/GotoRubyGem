@@ -1,0 +1,11 @@
+{
+	// When use_custom_gems_directories is set to false,
+	// gems from the default gems directory will be searchable.
+	"use_custom_gems_directories": false,
+
+	// custom_gems_directories is a list of absolute paths
+	// where gems should be searched.
+	// NOTE: If use_custom_gems_directories is set to true and
+	// 	     the list is empty, no gems will be searched.
+	"custom_gems_directories": []
+}
