@@ -1,0 +1,32 @@
+[
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Goto Ruby Gem",
+            "children":
+            [
+              {
+                  "command": "edit_settings",
+                  "args": {
+                      "base_file": "${packages}/GotoRubyGem/GotoRubyGem.sublime-settings",
+                      "default": "// Define Custom Gems Directories array if do not want to use default gems paths\n"
+                  },
+                  "caption": "Settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
