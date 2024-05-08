@@ -15,19 +15,17 @@ class GotoRubyGemCommand(sublime_plugin.WindowCommand):
 class GemInputHandler(sublime_plugin.ListInputHandler):
 
   def list_items(self):
-    # Get the current Ruby version
-    ruby_version = os.popen("rvm current").read().split("\n")[0]
+    gem_home = os.popen("echo $GEM_HOME").read().split("\n")[0]
 
-    rvm_gems_directories = [
-      os.path.expanduser("~/.rvm/gems/%s/gems/" % ruby_version),
-      os.path.expanduser("~/.rvm/gems/%s/bundler/gems/" % ruby_version)
+    gems_directories = [
+      os.path.expanduser("%s/gems/" % gem_home),
+      os.path.expanduser("%s/bundler/gems/" % gem_home)
     ]
 
     # Create a list to store gem names and their absolute paths
     gems_list = []
 
-    for gems_directory in rvm_gems_directories:
-
+    for gems_directory in gems_directories:
       # List all Gems
       gems = os.listdir(gems_directory)
 
