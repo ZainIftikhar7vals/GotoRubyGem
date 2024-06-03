@@ -1,4 +1,4 @@
-# Goto Ruby Gem 0.1.0
+# Goto Ruby Gem 0.2.0
 
 This plugin is designed for Ruby projects and allows you to quickly access the code of any installed gem. It opens the gem's source code in a new Sublime Text window for easy inspection.
 
@@ -24,6 +24,6 @@ Once installed, you'll see a selection window where you can choose "Goto Ruby Ge
 4. Select a gem from the list, and the plugin will open its source code in a new window.
 
 ## limitations
-* Experimental support for Sublime Text for Linux/Mac with RVM.
+* Experimental support for Sublime Text for Linux/Mac with RVM/rbenv.
 
 Enjoy exploring gem code easily with Goto Ruby Gem!
