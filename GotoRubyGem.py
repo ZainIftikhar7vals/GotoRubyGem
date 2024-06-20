@@ -27,7 +27,7 @@ class GemInputHandler(sublime_plugin.ListInputHandler):
     if use_custom_gems_directories:
       gems_directories = settings.get("custom_gems_directories", [])
     else:
-      gem_home = os.popen("echo $GEM_HOME").read().split("\n")[0]
+      gem_home = os.environ["GEM_HOME"]
       gems_directories = [
         os.path.expanduser("%s/gems/" % gem_home),
         os.path.expanduser("%s/bundler/gems/" % gem_home)
