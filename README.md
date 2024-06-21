@@ -4,10 +4,16 @@ This plugin is designed for Ruby projects and allows you to quickly access the c
 
 ![working](https://github.com/ZainIftikhar7vals/GotoRubyGem/assets/88649907/f23eeb13-061b-4e27-a7f5-a5d35d7e5933)
 
+## Installation
+
+1. Open Sublime Text.
+2. Press Ctrl + Shift + P (Linux) or Cmd + Shift + P (Mac) to open the Command Palette.
+3. Type Install Package and press Enter.
+4. Type "GotoRubyGem" and press Enter to install.
 
 ## How to Use
 
-1. Press "ctrl + shift + p" in Sublime Text.
+1. Press `Ctrl + Shift + P` (Linux) or `Cmd + Shift + P` (Mac) in Sublime Text.
 2. Type "Goto Ruby Gem" and press enter.
 3. It will display a list of all installed gems.
 4. Select a gem from the list, and the plugin will open its source code in a new window.
