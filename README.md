@@ -2,7 +2,7 @@
 
 This plugin is designed for Ruby projects and allows you to quickly access the code of any installed gem. It opens the gem's source code in a new Sublime Text window for easy inspection.
 
-![working](https://github.com/ZainIftikhar7vals/GotoRubyGem/assets/88649907/f23eeb13-061b-4e27-a7f5-a5d35d7e5933)
+![gif](https://github.com/ZainIftikhar7vals/GotoRubyGem/assets/88649907/f23eeb13-061b-4e27-a7f5-a5d35d7e5933)
 
 ## Installation
 
