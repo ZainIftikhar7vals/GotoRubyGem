@@ -18,7 +18,7 @@ This plugin is designed for Ruby projects and allows you to quickly access the c
 3. It will display a list of all installed gems.
 4. Select a gem from the list, and the plugin will open its source code in a new window.
 
-## Specifying Custom Directories
+## Specifying Custom Directories (optional)
 
 For specifying custom directories from which gems should be searched:
 
